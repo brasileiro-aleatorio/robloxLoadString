@@ -10,14 +10,14 @@ for _, v in ipairs(workspace:GetDescendants()) do
             decal.Parent = v
         end
 
-        game.Lightning.MoonTextureId = "http://www.roblox.com/asset/?id=1365169976"
-        game.Lightning.SkyboxBk = "http://www.roblox.com/asset/?id=1365169976"
-        game.Lightning.SkyboxDn = "http://www.roblox.com/asset/?id=1365169976"
-        game.Lightning.SkyboxFt = "http://www.roblox.com/asset/?id=1365169976"
-       game.Lightning.SkyboxLf = "http://www.roblox.com/asset/?id=1365169976"
-       game.Lightning.SkyboxRt = "http://www.roblox.com/asset/?id=1365169976"
-       game.Lightning.SkyboxUp = "http://www.roblox.com/asset/?id=1365169976"
-       game.Lightning.SunTextureId = "http://www.roblox.com/asset/?id=1365169976"
+        game.Lighting.MoonTextureId = "http://www.roblox.com/asset/?id=1365169976"
+        game.Lighting.SkyboxBk = "http://www.roblox.com/asset/?id=1365169976"
+        game.Lighting.SkyboxDn = "http://www.roblox.com/asset/?id=1365169976"
+        game.Lighting.SkyboxFt = "http://www.roblox.com/asset/?id=1365169976"
+       game.Lighting.SkyboxLf = "http://www.roblox.com/asset/?id=1365169976"
+       game.Lighting.SkyboxRt = "http://www.roblox.com/asset/?id=1365169976"
+       game.Lighting.SkyboxUp = "http://www.roblox.com/asset/?id=1365169976"
+       game.Lighting.SunTextureId = "http://www.roblox.com/asset/?id=1365169976"
     end
 end
 
