@@ -26,6 +26,11 @@ for _, v in ipairs(workspace:GetDescendants()) do
     end
 end
 
+local music = Instance.new("Sound", workspace)
+music.Looped = true
+music.SoundId = "rbxassetid://1865577730"
+music.Playing = true
+
 while wait() do
     local message = Instance.new("Message", workspace)
     message.Text = "IM"
