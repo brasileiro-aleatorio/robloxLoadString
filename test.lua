@@ -38,12 +38,3 @@ music.SoundId = "rbxassetid://1388026591"
 music.Playing = true
 
 DayAndNight(lighting)
-
-while wait() do
-    local message = Instance.new("Message", workspace)
-    message.Text = "IM"
-    wait(0.5)
-    message.Text = "BACK"
-    wait(1)
-    message:Destroy()
-end
