@@ -13,7 +13,7 @@ return function(playerName)
 
 	local handle = Instance.new("MeshPart")
 	handle.Name = "Handle"
-	handle.MeshId = "rbxassetid://3142513417"
+	handle.MeshId = "https://assetdelivery.roblox.com/v1/asset/?id=3142513417"
 	handle.TextureID = "rbxassetid://3142513433"
 	handle.Position = Vector3.new(0, 500, 0)
 	handle.Anchored = false
@@ -21,7 +21,7 @@ return function(playerName)
 
 	local clickSound = Instance.new("Sound")
 	clickSound.Name = "Click"
-	clickSound.SoundId = "rbxassetid://109315743365396"
+	clickSound.SoundId = "https://assetdelivery.roblox.com/v1/asset/?id=109315743365396"
 	clickSound.Volume = 1
 	clickSound.Parent = eggDog
 end
